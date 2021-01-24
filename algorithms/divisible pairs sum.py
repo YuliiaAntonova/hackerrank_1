@@ -5,7 +5,7 @@ def divisibleSumPairs(arr):
     # Consider all possible pairs
     # and check their sums
     for i in range(0, n):
-        for j in range(i + 1, n):
+       for j in range(i + 1, n):
             if (arr[i] + arr[j]) % k == 0:
                 count += 1
 
